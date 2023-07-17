@@ -113,10 +113,6 @@ form h2{
     opacity: 0;
     pointer-events: none;
 }
-
-.icon-mostrar-senha.fixada{
-    position: fixed;
-}
     
 .inputBox{
     position: relative;
@@ -176,7 +172,7 @@ input[type="submit"]:active{
     color: #7160e1;
     transform: translateX(-10px) translateY(-30px);
     font-size: 0.75rem;
-}
+} 
 
 .inputBox i{
     position: absolute;
@@ -191,9 +187,19 @@ input[type="submit"]:active{
     
 }
 
+.fixada input ~ span {
+    color: #7160e1;
+    transform: translateX(-10px) translateY(-30px);
+    font-size: 0.75rem;
+} 
+
+.fixada input ~ i {
+    height: 40px; 
+} 
+
 .inputBox input:valid ~ i, .inputBox input:focus ~ i{
     height: 40px; 
-}
+}   
 
 .links{
     display: flex;
