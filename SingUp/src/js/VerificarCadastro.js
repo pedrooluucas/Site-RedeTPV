@@ -13,7 +13,7 @@ function cadastrar() {
         },
         method: "POST",
         body: JSON.stringify({
-            nome: Inome.value,
+            username: Inome.value,
             email: Iemail.value,
             senha: Isenha.value,
             comfirmar: Icomfirmar.value      
