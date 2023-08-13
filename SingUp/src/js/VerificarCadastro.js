@@ -5,7 +5,7 @@ const Isenha = document.querySelector("#user-senha");
 const Icomfirmar = document.querySelector("#user-comfirmar");
 
 function cadastrar() {
-    fetch("https:localhost:0888/cadastro", 
+    fetch("http://localhost:8080/usuarios", 
     {
         headers: {
             'Accept': 'application/json',
